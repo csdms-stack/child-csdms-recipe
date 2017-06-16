@@ -5,7 +5,7 @@
 
 # Current Build Status
 
-Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/csdms-child-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/csdms-child-recipe)
+Linux, OSX: [![Build Status](https://travis-ci.org/csdms-stack/child-csdms-recipe.svg?branch=master)](https://travis-ci.org/csdms-stack/child-csdms-recipe)
 
 # About csdms-child
 
