@@ -12,10 +12,10 @@ requirements:
   build:
     - bmi-babel
     - child
-    - pymt
   run:
     - bmi-babel
     - child
+    - matplotlib
 
 test:
   requires:
