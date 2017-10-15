@@ -12,9 +12,11 @@ requirements:
   build:
     - bmi-babel
     - child
+    - scipy <=0.18.1
   run:
     - bmi-babel
     - child
+    - scipy <=0.18.1
     - matplotlib
 
 test:
