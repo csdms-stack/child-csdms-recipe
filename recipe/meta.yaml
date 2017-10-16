@@ -12,17 +12,19 @@ requirements:
   build:
     - bmi-babel
     - child
-    - pymt
+    - scipy <=0.18.1
   run:
     - bmi-babel
     - child
+    - scipy <=0.18.1
+    - matplotlib
 
 test:
   requires:
     - pymt
 
 build:
-  number: 3
+  number: 4
 
 about:
   home: http://csdms.colorado.edu/wiki/Model:CHILD
