@@ -12,15 +12,14 @@ requirements:
   build:
     - babelizer
     - child
-    - scipy <=0.18.1
   run:
-    - babelizer
+    - cca-babel <2
+    - cca-spec-babel
+    - ccaffeine
     - child
-    - scipy <=0.18.1
 
 test:
   requires:
-    - matplotlib
     - pymt
 
 build:
