@@ -10,19 +10,21 @@ source:
 
 requirements:
   build:
-    - bmi-babel
+    - babelizer
     - child
-    - pymt
+    - scipy <=0.18.1
   run:
-    - bmi-babel
+    - babelizer
     - child
+    - scipy <=0.18.1
 
 test:
   requires:
+    - matplotlib
     - pymt
 
 build:
-  number: 3
+  number: 5
 
 about:
   home: http://csdms.colorado.edu/wiki/Model:CHILD
