@@ -1,6 +1,8 @@
 #! /usr/bin/env python
 import os
 
+os.environ['MPLBACKEND'] = 'Agg'
+
 os.mkdir('_testing')
 os.chdir('_testing')
 
